@@ -10,6 +10,7 @@ It is plain HTML and one stylesheet, with no build step. GitHub Pages publishes 
 - Build from public documentation and list each source in [PROVENANCE.md](PROVENANCE.md).
 - Commit in UTC with sign-off, `TZ=UTC git commit -s`, under a [Conventional Commit](https://www.conventionalcommits.org/en/v1.0.0/) subject.
 - The layout and the base of the stylesheet are shared with each project's `site/` folder. Change them together, so the four sites stay one family.
+- `preview.png`, the picture link previews show, is drawn from Irie's `docs/preview.html` with `#people`; that page says how. Draw it again when the headline changes.
 
 ## License
 
