@@ -1,0 +1,13 @@
+<!doctype html>
+<meta charset="utf-8">
+<meta name="robots" content="noindex">
+<title>Irie People · connecting</title>
+<link rel="icon" href="favicon.svg">
+<link rel="stylesheet" href="style.css">
+<main style="max-width:36rem;margin:4rem auto;padding:0 1rem">
+<h1>Connecting…</h1>
+<p>This page hands the sign-in code to the Irie People tool running on your own computer, at <code>localhost:8737</code>. If nothing happens, that tool is not running: start it and sign in again.</p>
+</main>
+<script>
+  if (location.search) location.replace("http://localhost:8737/" + location.search);
+</script>
